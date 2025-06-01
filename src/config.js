@@ -6,15 +6,15 @@ module.exports = {
 	prefix: "t?", // Default prefix
 	status: "dnd",
 	eventListeners: 20,
-	botName: "testify",
-	dev: "Kkermit",
-	devBy: "| Developed by kkermit",
-	developers: "526853643962679323",
+	botName: "banks",
+	dev: "banks",
+	devBy: "| Developed by banks",
+	developers: "375931932036431873",
 	noPerms: `You **do not** have the required permissions to use this command!`,
 	ownerOnlyCommand: `This command is **only** available for the owner of the bot!`,
 	filterMessage: "Your message includes profanity which is **not** allowed!",
-	botInvite: "https://discord.com/oauth2/authorize?client_id=1211784897627168778&permissions=8&scope=bot%20applications.commands",
-	botServerInvite: "https://discord.gg/xcMVwAVjSD",
+	botInvite: "https://discord.com/oauth2/authorize?client_id=1373243374689058836&permissions=8&scope=bot%20applications.commands",
+	botServerInvite: "https://discord.gg/tYvw4RHC8w",
 
 	noPerms: (missingPerms) => {
 		const formattedPerms = missingPerms

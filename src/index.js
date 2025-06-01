@@ -110,7 +110,6 @@ auditLogsClient(client);
     client.handleCommands(commandFolders, "./src/commands");
     client.prefixCommands(pcommandFolders, './src/prefix');
     // Loads Val Api //
-    await fetchValorantAPI(client);
     client.login(token).then(() => {
         handleLogs(client)
         checkVersion(currentVersion);

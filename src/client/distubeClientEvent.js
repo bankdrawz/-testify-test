@@ -11,13 +11,8 @@ function distubeClient(client, distube) {
     
     try {
         client.distube = new DisTube(client, {
-            leaveOnStop: false,
-            emitNewSongOnly: true,
-            emitAddSongWhenCreatingQueue: false,
-            emitAddListWhenCreatingQueue: false,
             plugins: [
                 new SpotifyPlugin({
-                    emitEventsAfterFetching: true
                 }),
             new SoundCloudPlugin(),
             new YtDlpPlugin()
